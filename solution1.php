@@ -17,3 +17,5 @@ function fizzbuzz($iterations) {
         echo sprintf("%s <br>", implode(" ", $result));
     }
 }
+
+fizzbuzz(100);

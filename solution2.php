@@ -18,7 +18,6 @@ function fizzbuzz($iterations, $rules) {
 
 
 fizzbuzz(100, [
-    3 => "three",
-    4 => "four",
-    10 => "ten",
+    3 => "fizz",
+    5 => "buzz",
 ]);
